@@ -1,0 +1,579 @@
+.++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.
+.------------------- TASTYIGNITER SETUP LOG ------------------.
+.++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.
+[2022/11/14 04:18:27] => Host: Linux cfcd3ee0412a 5.15.49-linuxkit #1 SMP Tue Sep 13 07:51:46 UTC 2022 x86_64
+[2022/11/14 04:18:27] => PHP version: 7.4.2
+[2022/11/14 04:18:27] => Server software: Apache/2.4.38 (Debian)
+[2022/11/14 04:18:27] => Operating system: Linux
+[2022/11/14 04:18:27] => Memory limit: 256M
+[2022/11/14 04:18:27] => Max execution time: 30
+[2022/11/14 04:18:31] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:18:31] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => php
+    [handler] => onCheckRequirements
+)
+
+[2022/11/14 04:18:31] => System check: php
+[2022/11/14 04:18:31] => Requirement php +OK
+[2022/11/14 04:18:31] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2022/11/14 04:18:32] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:18:32] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => pdo
+    [handler] => onCheckRequirements
+)
+
+[2022/11/14 04:18:32] => System check: pdo
+[2022/11/14 04:18:32] => Requirement pdo +OK
+[2022/11/14 04:18:32] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2022/11/14 04:18:34] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:18:34] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => curl
+    [handler] => onCheckRequirements
+)
+
+[2022/11/14 04:18:34] => System check: curl
+[2022/11/14 04:18:34] => Requirement curl +OK
+[2022/11/14 04:18:34] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2022/11/14 04:18:35] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:18:35] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => connection
+    [handler] => onCheckRequirements
+)
+
+[2022/11/14 04:18:35] => System check: connection
+[2022/11/14 04:18:35] => Server request: ping
+[2022/11/14 04:18:36] => Request information: Array
+(
+    [url] => https://api.tastyigniter.com/v2/ping
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 861
+    [request_size] => 135
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.219363
+    [namelookup_time] => 0.029927
+    [connect_time] => 0.052312
+    [pretransfer_time] => 0.10581
+    [size_upload] => 139
+    [size_download] => 17
+    [speed_download] => 77
+    [speed_upload] => 634
+    [download_content_length] => 17
+    [upload_content_length] => 139
+    [starttransfer_time] => 0.105814
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 172.67.132.198
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 172.18.0.5
+    [local_port] => 41260
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 105691
+    [connect_time_us] => 52312
+    [namelookup_time_us] => 29927
+    [pretransfer_time_us] => 105810
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 105814
+    [total_time_us] => 219363
+)
+
+[2022/11/14 04:18:36] => Requirement connection +OK
+[2022/11/14 04:18:36] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2022/11/14 04:18:37] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:18:37] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => mbstring
+    [handler] => onCheckRequirements
+)
+
+[2022/11/14 04:18:37] => System check: mbstring
+[2022/11/14 04:18:37] => Requirement mbstring +OK
+[2022/11/14 04:18:37] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2022/11/14 04:18:39] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:18:39] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => ssl
+    [handler] => onCheckRequirements
+)
+
+[2022/11/14 04:18:39] => System check: ssl
+[2022/11/14 04:18:39] => Requirement ssl +OK
+[2022/11/14 04:18:39] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2022/11/14 04:18:41] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:18:41] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => gd
+    [handler] => onCheckRequirements
+)
+
+[2022/11/14 04:18:41] => System check: gd
+[2022/11/14 04:18:41] => Requirement gd +OK
+[2022/11/14 04:18:41] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2022/11/14 04:18:42] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:18:42] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => zip
+    [handler] => onCheckRequirements
+)
+
+[2022/11/14 04:18:42] => System check: zip
+[2022/11/14 04:18:42] => Requirement zip +OK
+[2022/11/14 04:18:42] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2022/11/14 04:18:44] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:18:44] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => writable
+    [handler] => onCheckRequirements
+)
+
+[2022/11/14 04:18:44] => System check: writable
+[2022/11/14 04:18:44] => Requirement writable +OK
+[2022/11/14 04:18:44] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2022/11/14 04:19:12] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:19:12] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [requirement] => complete
+    [handler] => onCompleteRequirements
+)
+
+[2022/11/14 04:19:12] => License Agreement: accepted
+[2022/11/14 04:19:12] => Execute handler (onCompleteRequirements): Array
+(
+    [step] => database
+)
+
+[2022/11/14 04:20:10] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:20:10] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2022/11/14 04:20:10] => Database check: tiago
+[2022/11/14 04:20:10] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1045] Access denied for user 'root'@'172.18.0.5' (using password: NO)
+[2022/11/14 04:20:10] => Trace log:
+#0 /var/www/html/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /var/www/html/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /var/www/html/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /var/www/html/setup/bootstrap.php(62): SetupController->__construct()
+#4 /var/www/html/setup.php(1): include_once('/var/www/html/s...')
+#5 {main}
+[2022/11/14 04:20:18] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:20:18] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2022/11/14 04:20:18] => Database check: tiago
+[2022/11/14 04:20:18] => Database tiago +OK
+[2022/11/14 04:20:18] => Execute handler (onCheckDatabase): Array
+(
+    [step] => settings
+    [settingsInstalled] => 
+)
+
+[2022/11/14 04:21:24] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:21:24] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2022/11/14 04:21:24] => Settings check: Tiago la Pizza
+[2022/11/14 04:21:24] => Settings +OK
+[2022/11/14 04:21:24] => Execute handler (onValidateSettings): Array
+(
+    [step] => install
+)
+
+[2022/11/14 04:21:32] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:21:32] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2022/11/14 04:21:32] => Foundation setup: apply
+[2022/11/14 04:21:32] => Server request: item/detail
+[2022/11/14 04:21:32] => Request information: Array
+(
+    [url] => https://api.tastyigniter.com/v2/item/detail
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 878
+    [request_size] => 142
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.177733
+    [namelookup_time] => 0.004128
+    [connect_time] => 0.026459
+    [pretransfer_time] => 0.068549
+    [size_upload] => 219
+    [size_download] => 503
+    [speed_download] => 2841
+    [speed_upload] => 1237
+    [download_content_length] => 503
+    [upload_content_length] => 219
+    [starttransfer_time] => 0.068557
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 172.67.132.198
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 172.18.0.5
+    [local_port] => 58386
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 68026
+    [connect_time_us] => 26459
+    [namelookup_time_us] => 4128
+    [pretransfer_time_us] => 68549
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 68557
+    [total_time_us] => 177733
+)
+
+[2022/11/14 04:21:32] => Server request: core/install
+[2022/11/14 04:21:32] => Request information: Array
+(
+    [url] => https://api.tastyigniter.com/v2/core/install
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 874
+    [request_size] => 143
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.274061
+    [namelookup_time] => 0.002875
+    [connect_time] => 0.025287
+    [pretransfer_time] => 0.069424
+    [size_upload] => 219
+    [size_download] => 712
+    [speed_download] => 2598
+    [speed_upload] => 799
+    [download_content_length] => 712
+    [upload_content_length] => 219
+    [starttransfer_time] => 0.069428
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 172.67.132.198
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 172.18.0.5
+    [local_port] => 58400
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 69293
+    [connect_time_us] => 25287
+    [namelookup_time_us] => 2875
+    [pretransfer_time_us] => 69424
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 69428
+    [total_time_us] => 274061
+)
+
+[2022/11/14 04:21:32] => Foundation setup: apply +OK
+[2022/11/14 04:21:32] => Execute handler (onInstall): Array
+(
+    [result] => Array
+        (
+            [download] => Array
+                (
+                    [0] => Array
+                        (
+                            [action] => install
+                            [process] => downloadCore
+                            [code] => tastyigniter
+                            [name] => TastyIgniter
+                            [author] => Samuel Adepoyigi
+                            [description] => Powerful, yet easy to use, open source online food ordering, table reservation and restaurant management system
+                            [icon] => icon-logo icon-ti-text-logo
+                            [type] => core
+                            [hash] => 14bc39372fce56fb9d51582176fd9e845c9d59f9
+                            [version] => v3.6.0
+                            [published_at] => 2022-11-01T15:26:42.000000Z
+                        )
+
+                    [1] => Array
+                        (
+                            [action] => install
+                            [process] => downloadTheme
+                            [code] => tastyigniter-orange
+                            [name] => TastyIgniter Orange
+                            [author] => TastyIgniter Dev Team
+                            [description] => Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap.
+                            [icon] => fa-paint-brush
+                            [type] => theme
+                            [hash] => 791b3a311dc95749d4771cd9e09a1f68c6e11295
+                            [version] => v3.0.1
+                            [published_at] => 2022-11-01T15:46:55.000000Z
+                        )
+
+                )
+
+            [extract] => Array
+                (
+                    [0] => Array
+                        (
+                            [action] => install
+                            [process] => extractCore
+                            [code] => tastyigniter
+                            [name] => TastyIgniter
+                            [author] => Samuel Adepoyigi
+                            [description] => Powerful, yet easy to use, open source online food ordering, table reservation and restaurant management system
+                            [icon] => icon-logo icon-ti-text-logo
+                            [type] => core
+                            [hash] => 14bc39372fce56fb9d51582176fd9e845c9d59f9
+                            [version] => v3.6.0
+                            [published_at] => 2022-11-01T15:26:42.000000Z
+                        )
+
+                    [1] => Array
+                        (
+                            [action] => install
+                            [process] => extractTheme
+                            [code] => tastyigniter-orange
+                            [name] => TastyIgniter Orange
+                            [author] => TastyIgniter Dev Team
+                            [description] => Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap.
+                            [icon] => fa-paint-brush
+                            [type] => theme
+                            [hash] => 791b3a311dc95749d4771cd9e09a1f68c6e11295
+                            [version] => v3.0.1
+                            [published_at] => 2022-11-01T15:46:55.000000Z
+                        )
+
+                )
+
+            [config] => Array
+                (
+                    [0] => Array
+                        (
+                            [items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [code] => tastyigniter
+                                            [name] => TastyIgniter
+                                            [author] => Samuel Adepoyigi
+                                            [description] => Powerful, yet easy to use, open source online food ordering, table reservation and restaurant management system
+                                            [icon] => icon-logo icon-ti-text-logo
+                                            [type] => core
+                                            [hash] => 14bc39372fce56fb9d51582176fd9e845c9d59f9
+                                            [version] => v3.6.0
+                                            [published_at] => 2022-11-01T15:26:42.000000Z
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [code] => tastyigniter-orange
+                                            [name] => TastyIgniter Orange
+                                            [author] => TastyIgniter Dev Team
+                                            [description] => Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap.
+                                            [icon] => fa-paint-brush
+                                            [type] => theme
+                                            [hash] => 791b3a311dc95749d4771cd9e09a1f68c6e11295
+                                            [version] => v3.0.1
+                                            [published_at] => 2022-11-01T15:46:55.000000Z
+                                        )
+
+                                )
+
+                            [process] => writeConfig
+                        )
+
+                )
+
+            [install] => Array
+                (
+                    [0] => Array
+                        (
+                            [items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [code] => tastyigniter
+                                            [name] => TastyIgniter
+                                            [author] => Samuel Adepoyigi
+                                            [description] => Powerful, yet easy to use, open source online food ordering, table reservation and restaurant management system
+                                            [icon] => icon-logo icon-ti-text-logo
+                                            [type] => core
+                                            [hash] => 14bc39372fce56fb9d51582176fd9e845c9d59f9
+                                            [version] => v3.6.0
+                                            [published_at] => 2022-11-01T15:26:42.000000Z
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [code] => tastyigniter-orange
+                                            [name] => TastyIgniter Orange
+                                            [author] => TastyIgniter Dev Team
+                                            [description] => Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap.
+                                            [icon] => fa-paint-brush
+                                            [type] => theme
+                                            [hash] => 791b3a311dc95749d4771cd9e09a1f68c6e11295
+                                            [version] => v3.0.1
+                                            [published_at] => 2022-11-01T15:46:55.000000Z
+                                        )
+
+                                )
+
+                            [process] => finishInstall
+                        )
+
+                )
+
+        )
+
+)
+
+[2022/11/14 04:21:32] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:21:32] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2022/11/14 04:21:32] => Foundation setup: downloadCore
+[2022/11/14 04:21:56] => Downloaded file (tastyigniter) to /var/www/html/setup/temp/ef0eaeec4a461084eb2522e05b439f26.zip
+[2022/11/14 04:21:56] => Foundation setup: downloadCore +OK
+[2022/11/14 04:21:56] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2022/11/14 04:21:56] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:21:56] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2022/11/14 04:21:56] => Foundation setup: downloadTheme
+[2022/11/14 04:22:00] => Downloaded file (tastyigniter-orange) to /var/www/html/setup/temp/d524ceb31a7e131d7d22e6398a45a960.zip
+[2022/11/14 04:22:00] => Foundation setup: downloadTheme +OK
+[2022/11/14 04:22:00] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2022/11/14 04:22:01] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:22:01] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2022/11/14 04:22:01] => Foundation setup: extractCore
+[2022/11/14 04:22:01] => Extracting [tastyigniter] file ef0eaeec4a461084eb2522e05b439f26.zip
+[2022/11/14 04:24:43] => Foundation setup: extractCore +OK
+[2022/11/14 04:24:43] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2022/11/14 04:24:43] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:24:43] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2022/11/14 04:24:43] => Foundation setup: extractTheme
+[2022/11/14 04:24:43] => Extracting [tastyigniter-orange] file d524ceb31a7e131d7d22e6398a45a960.zip
+[2022/11/14 04:24:49] => Foundation setup: extractTheme +OK
+[2022/11/14 04:24:50] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2022/11/14 04:24:50] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:24:50] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2022/11/14 04:24:50] => Foundation setup: writeConfig
+[2022/11/14 04:24:56] => Foundation setup: writeConfig +OK
+[2022/11/14 04:24:56] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2022/11/14 04:24:57] => .============================ POST REQUEST ==========================.
+[2022/11/14 04:24:57] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2022/11/14 04:24:57] => Foundation setup: finishInstall
+[2022/11/14 04:26:12] => Foundation setup: finishInstall +OK
+[2022/11/14 04:26:12] => Execute handler (onInstall): Array
+(
+    [result] => http://localhost/admin/login
+)
+
